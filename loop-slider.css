@@ -1,0 +1,21 @@
+[data-components="loop-slider"] {
+  position: relative;
+}
+[data-components="loop-slider"] [data-ls="slide-viewport"] {
+  overview: hidden;
+  position: relative;
+  z-index: 0;
+}
+[data-components="loop-slider"] [data-ls="slide"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+[data-components="loop-slider"] [data-ls="left"] {
+  position: relative;
+  z-index: 1;
+}
+[data-components="loop-slider"] [data-ls="right"] {
+  position: relative;
+  z-index: 1;
+}
